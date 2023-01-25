@@ -1,0 +1,21 @@
+
+   
+main {
+    background-color: rgba(223, 226, 207, 0.973);
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+h3{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+a {
+    color: aliceblue;
+}
+.encabezado{
+    background-color: black;
+    color: aliceblue;
+}
