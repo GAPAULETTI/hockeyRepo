@@ -6,17 +6,38 @@
 header {
     display: block;
 }
+h1{
+    font-size: 60px;
+}
+.lib{
+    visibility: hidden;
+}
 h3{
     display: block;
     background-color: black;
     color: aliceblue;
     text-align: center;
 }
+main{
+    display: block;
+}
+nav{
+    width: 150px;
+    display: inline-block;
+    align-self: auto;
+   
+}
+nav p{
+    width: 150px;
+}
+section{
+    display: inline-block;
+}
 article{
 display: inline-block;
 }
  a{
-   margin-top: 20px ;
+   margin: 10px;
    
 }
 p {
@@ -41,11 +62,20 @@ p {
  .logo {
     display: inline;
     float: right;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    
     
 
  }
- .menu-nav{
-    text-align: left;
+ 
+ .addInfo {
+    width: 600px;
+    height: 300px;
+    position:relative;
+    display: inline-block;
+    
  }
  .data{
     text-align: right;
