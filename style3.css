@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+   
+}
+h1{
+    color: azure;
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+}
+.banner {
+    height: 600px;
+    display: block;
+    background-image: url(./img/hockey3.jpg);
+    background-size:cover;
+}
+.logo {
+    display: inline;
+    float: right;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.lib{
+    display: none;
+}
+main{
+    display: inline;
+    text-align: start;
+    writing-mode:horizontal-tb;
+    background-color: rgb(182, 134, 62);
+    
+}
+nav{
+    position: relative;
+    top: -200px;
+    left: 100px;
+
+}
+nav p{
+    padding: 3px 3px 3px 3px;
+    color: aliceblue;
+    text-decoration: none;
+    width: 100px;
+    border-style: inset;
+    
+    background-color: rgb(179, 179, 192);
+}
+nav p a {
+    font-size: large;
+    font-style: oblique;
+    text-decoration: none;
+    padding-left: 20px;
+}
+img{
+    width: 250px;
+}
+h3{
+    background-color:rgb(8, 8, 54);
+    text-align: center;
+    text-decoration: wavy;
+    color: rgb(236, 216, 97);
+        
+}
+section{
+    display: inline;
+    
+}
+
+.addInfo{
+    color: red;
+    position: absolute;
+    top:630px;
+    
+}
+article h4{
+    color: black;
+}
+
+
+
