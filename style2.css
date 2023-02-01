@@ -16,7 +16,9 @@ main{
     
 }
 section {
-    display: inline;
+    padding-top: 10px;
+    text-justify: distribute;
+    /* display: inline; */
 }
 
 
@@ -40,11 +42,11 @@ nav{
     right: 10px;
 
 }
-nav p{
-    display: inline; 
+
     
-}
-nav p a{  
+
+nav a{  
+    display: inline;
     padding: 3px 3px 3px 3px;
     color: aliceblue;
     text-decoration: none;
@@ -79,33 +81,39 @@ img {
    
 }
 .logo{
-    display: inline-block;
-    position: sticky;
+    /* display: inline-block; */
+    /* position: sticky; */
 }
 
 
 .addInfo {
+    padding: 10px;
     width: 600px;
     height: 500px;
-    position:absolute;
-    display: inline-block;
+    /* position:absolute; */
+   /*  display: inline-block; */
     
 }
 .addInfo p{
+    
     font-size: small;
-    padding-top: 20px;
+    padding-top: 2px;
     padding-left: 20px;
    
 }
 aside{
     padding-top: 20px;
-    position: absolute;
+    /* position: absolute; */
     text-align: left;
 }
 .lib{
-    visibility: hidden;
+    display: none;
 }
-
+.flex-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+}
 
 /*
 .imagen{

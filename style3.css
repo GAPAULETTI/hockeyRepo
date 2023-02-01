@@ -31,7 +31,8 @@ h1{
 }
 main{
     display: inline;
-    text-align: start;
+    vertical-align: top;
+    
     writing-mode:horizontal-tb;
     background-color: rgb(182, 134, 62);
     
@@ -74,8 +75,10 @@ section{
 
 .addInfo{
     color: red;
-    position: absolute;
-    top:630px;
+    text-indent: 10%;
+    vertical-align: top;
+    /* position: absolute;
+    top:630px; */
     
 }
 article h4{
