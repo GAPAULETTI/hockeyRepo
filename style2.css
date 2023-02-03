@@ -16,7 +16,9 @@ main{
     
 }
 section {
-    display: inline;
+    padding-top: 10px;
+    text-justify: distribute;
+    /* display: inline; */
 }
 
 
@@ -40,11 +42,11 @@ nav{
     right: 10px;
 
 }
-nav p{
-    display: inline; 
+
     
-}
-nav p a{  
+
+nav a{  
+    display: inline;
     padding: 3px 3px 3px 3px;
     color: aliceblue;
     text-decoration: none;
@@ -53,6 +55,7 @@ nav p a{
     border-style:groove;
     background-color: blue;   
 }
+
 .home{
     padding: 3px 3px 3px 3px;
     color: aliceblue;
@@ -79,33 +82,60 @@ img {
    
 }
 .logo{
-    display: inline-block;
-    position: sticky;
+    object-fit: contain;
+    /* display: inline-block; */
+    /* position: sticky; */
 }
 
 
 .addInfo {
+    padding: 10px;
     width: 600px;
     height: 500px;
-    position:absolute;
-    display: inline-block;
+    /* position:absolute; */
+   /*  display: inline-block; */
     
 }
 .addInfo p{
+    
     font-size: small;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
    
 }
 aside{
-    padding-top: 20px;
-    position: absolute;
+    padding-top: 40px;
+    /* position: absolute; */
     text-align: left;
 }
 .lib{
-    visibility: hidden;
+    display: none;
 }
-
+.flex-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items: flex-start;
+}
+.title_rules{
+    text-align: center;
+    color: aliceblue;
+}
+.rules{
+    text-align:justify;
+    width: 500px;
+    margin-left: 6em;
+}
+.rules h3 {
+    background-color:rgb(255, 208, 0);
+    color: blue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.sub_table{
+    list-style-type: lower-alpha;
+}
 
 /*
 .imagen{
