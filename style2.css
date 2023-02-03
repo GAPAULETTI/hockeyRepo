@@ -55,6 +55,7 @@ nav a{
     border-style:groove;
     background-color: blue;   
 }
+
 .home{
     padding: 3px 3px 3px 3px;
     color: aliceblue;
@@ -81,6 +82,7 @@ img {
    
 }
 .logo{
+    object-fit: contain;
     /* display: inline-block; */
     /* position: sticky; */
 }
@@ -97,12 +99,13 @@ img {
 .addInfo p{
     
     font-size: small;
-    padding-top: 2px;
-    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
    
 }
 aside{
-    padding-top: 20px;
+    padding-top: 40px;
     /* position: absolute; */
     text-align: left;
 }
@@ -113,6 +116,25 @@ aside{
     display: flex;
     flex-direction: row;
     justify-content: flex-start ;
+    align-items: flex-start;
+}
+.title_rules{
+    text-align: center;
+    color: aliceblue;
+}
+.rules{
+    text-align:justify;
+    width: 500px;
+    margin-left: 6em;
+}
+.rules h3 {
+    background-color:rgb(255, 208, 0);
+    color: blue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.sub_table{
+    list-style-type: lower-alpha;
 }
 
 /*
