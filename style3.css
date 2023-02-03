@@ -9,7 +9,7 @@ header{
    
 }
 h1{
-    color: azure;
+    color: rgba(248, 213, 54, 0.925);
     text-align: center;
     font-style: italic;
     font-size: 60px;
@@ -131,6 +131,10 @@ table {
 .add_data p{
     padding-top: 1em;
     padding-bottom: 1em;
+
+}
+.main_nav a:hover{
+    background-color: rgba(223, 185, 17, 0.925);
 
 }
 
