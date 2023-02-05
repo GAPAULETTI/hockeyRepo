@@ -83,10 +83,12 @@ article h3{
     color: rgb(17, 21, 221);
     padding-top: 1em;
     padding-bottom: 1em;
+
 }
 p{
     line-height: 20px;
 }
+
 .flex-main{
     display: flex;
     flex-direction: row;
